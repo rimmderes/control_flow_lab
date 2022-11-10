@@ -15,12 +15,12 @@ public class Runner {
         System.out.println("The number you are guessing is: " + guessTheNumber);
 
         //if number is right, they are correct
-        //if number is wrong, they are a loser
+        //if number is wrong, they are incorrect
 
         if(guessTheNumber == 4) {
-            System.out.println("That is Correct");
+            System.out.println("That is correct");
         } else {
-            System.out.println("That is Incorrect"); }
+            System.out.println("That is incorrect"); }
 
 
 
